@@ -17,13 +17,13 @@ end
 
 class Bignum
   def to_ipaddr
-   [24, 16, 8, 0].collect {|b| (self >> b) & 255}.join('.').to_ipaddr
+    IPAddr.new(self, Socket::AF_INET)
   end
 end
 
 class Fixnum
   def to_ipaddr
-   [24, 16, 8, 0].collect {|b| (self >> b) & 255}.join('.').to_ipaddr
+    IPAddr.new(self, Socket::AF_INET)
   end
 end
 
