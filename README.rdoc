@@ -1,6 +1,6 @@
 = has_ip_address
 
-A very small extension to ActiveRecord to store IP Addresses in the database as integers, in part to IPAddr.
+An extension to ActiveRecord to store IP Addresses in the database as integers, in part to IPAddr.
 
     class Visit < ActiveRecord::Base
       has_ip_address

@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "has_ip_address"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{An extension to ActiveRecord to store IP Addresses in the database as integers}
+    gem.description = %Q{An extension to ActiveRecord to store IP Addresses in the database as integers}
     gem.email = "josh@technicalpickles.com"
     gem.homepage = "http://github.com/technicalpickles/has_ip_address"
     gem.authors = ["Joshua Nichols"]
